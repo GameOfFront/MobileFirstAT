@@ -1,0 +1,146 @@
+/* [project]/app/Components/MenuVertical/styles.css [app-client] (css) */
+.menu-btn {
+  color: #fff;
+  cursor: pointer;
+  z-index: 50;
+  background-color: #111;
+  border: none;
+  border-radius: .5rem;
+  padding: .5rem;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  box-shadow: 0 2px 6px #0003;
+}
+
+.menu-btn .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-vertical {
+  color: #222;
+  z-index: 40;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  flex-direction: column;
+  width: 250px;
+  height: 100vh;
+  transition: transform .3s ease-in-out;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  box-shadow: 2px 0 8px #0000000d;
+}
+
+.menu-vertical.open {
+  transform: translateX(0);
+}
+
+.menu-header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+}
+
+.menu-logo {
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.brand {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.menu-close {
+  cursor: pointer;
+  color: #333;
+  background: none;
+  border: none;
+}
+
+.menu-close .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-links {
+  flex-direction: column;
+  flex-grow: 1;
+  gap: .75rem;
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+}
+
+.menu-links a {
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.menu-links a:hover {
+  color: #2563eb;
+}
+
+.menu-footer {
+  text-align: center;
+  color: #777;
+  border-top: 1px solid #eee;
+  padding: 1rem;
+  font-size: .875rem;
+}
+
+.menu-overlay {
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  z-index: 30;
+  background-color: #0006;
+  position: fixed;
+  inset: 0;
+}
+
+@media (min-width: 768px) {
+  .menu-btn, .menu-close, .menu-overlay {
+    display: none;
+  }
+
+  .menu-vertical {
+    height: 100vh;
+    position: static;
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .menu-vertical {
+    color: #eee;
+    background-color: #111;
+    border-right: 1px solid #333;
+  }
+
+  .menu-links a {
+    color: #ccc;
+  }
+
+  .menu-links a:hover {
+    color: #60a5fa;
+  }
+
+  .menu-footer {
+    color: #888;
+    border-top: 1px solid #333;
+  }
+
+  .menu-btn {
+    background-color: #333;
+  }
+}
+
+/*# sourceMappingURL=app_Components_MenuVertical_styles_css_bad6b30c._.single.css.map*/

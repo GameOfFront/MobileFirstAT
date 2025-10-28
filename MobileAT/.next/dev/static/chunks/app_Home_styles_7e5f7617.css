@@ -1,0 +1,73 @@
+/* [project]/app/Home/styles.css [app-client] (css) */
+.home-container {
+  color: #f5f5f5;
+  text-align: center;
+  background-color: #0a0a0a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 4rem 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.home-title {
+  text-shadow: 0 2px 6px #00000080;
+  letter-spacing: -.02em;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.button-group {
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+}
+
+.task-button {
+  color: #fff;
+  background: linear-gradient(to right, #2563eb, #4f46e5);
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform .3s, box-shadow .3s;
+  display: block;
+  box-shadow: 0 4px 10px #0003;
+}
+
+.task-button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 14px #0000004d;
+}
+
+.home-description {
+  color: #a1a1aa;
+  max-width: 500px;
+  margin-top: 3.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .home-title {
+    font-size: 3rem;
+  }
+
+  .task-button {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-title {
+    font-size: 3.5rem;
+  }
+}
+
+/*# sourceMappingURL=app_Home_styles_7e5f7617.css.map*/

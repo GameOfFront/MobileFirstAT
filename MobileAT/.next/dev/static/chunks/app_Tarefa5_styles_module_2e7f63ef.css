@@ -1,0 +1,138 @@
+/* [project]/app/Tarefa5/styles.module.css [app-client] (css) */
+.styles-module__DKZoYq__container {
+  background-color: #f5f5f5;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 100vh;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.styles-module__DKZoYq__topBar {
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.styles-module__DKZoYq__globalMenu {
+  color: #fff;
+  text-align: center;
+  background-color: #3b82f6;
+  border-radius: 8px;
+  flex: 2;
+  padding: .75rem;
+  font-weight: bold;
+}
+
+.styles-module__DKZoYq__header {
+  color: #fff;
+  text-align: center;
+  background-color: #2563eb;
+  border-radius: 8px;
+  flex: 1;
+  padding: .75rem;
+  font-weight: bold;
+}
+
+.styles-module__DKZoYq__desktopHeader, .styles-module__DKZoYq__desktopGlobalMenu {
+  display: none;
+}
+
+.styles-module__DKZoYq__contentWrapper, .styles-module__DKZoYq__leftColumn, .styles-module__DKZoYq__contextMainWrapper {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.styles-module__DKZoYq__contextMenu {
+  text-align: center;
+  color: #000;
+  background-color: #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.styles-module__DKZoYq__mainContent {
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+.styles-module__DKZoYq__ads {
+  text-align: center;
+  color: #000;
+  background-color: #fef08a;
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.styles-module__DKZoYq__footer {
+  color: #fff;
+  text-align: center;
+  background-color: #2563eb;
+  border-radius: 8px;
+  margin-top: auto;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .styles-module__DKZoYq__topBar {
+    display: none;
+  }
+
+  .styles-module__DKZoYq__desktopHeader, .styles-module__DKZoYq__desktopGlobalMenu {
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    font-weight: bold;
+    display: block;
+  }
+
+  .styles-module__DKZoYq__desktopHeader {
+    background-color: #2563eb;
+  }
+
+  .styles-module__DKZoYq__desktopGlobalMenu {
+    background-color: #3b82f6;
+  }
+
+  .styles-module__DKZoYq__contentWrapper {
+    flex-grow: 1;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+    display: grid;
+  }
+
+  .styles-module__DKZoYq__leftColumn {
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+    display: grid;
+  }
+
+  .styles-module__DKZoYq__contextMainWrapper {
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    display: grid;
+  }
+}
+
+.styles-module__DKZoYq__globalMenu, .styles-module__DKZoYq__header, .styles-module__DKZoYq__contextMenu, .styles-module__DKZoYq__mainContent, .styles-module__DKZoYq__ads, .styles-module__DKZoYq__desktopGlobalMenu, .styles-module__DKZoYq__desktopHeader {
+  transition: transform .2s, box-shadow .2s;
+}
+
+.styles-module__DKZoYq__globalMenu:hover, .styles-module__DKZoYq__header:hover, .styles-module__DKZoYq__contextMenu:hover, .styles-module__DKZoYq__mainContent:hover, .styles-module__DKZoYq__ads:hover, .styles-module__DKZoYq__desktopGlobalMenu:hover, .styles-module__DKZoYq__desktopHeader:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px #00000026;
+}
+
+/*# sourceMappingURL=app_Tarefa5_styles_module_2e7f63ef.css.map*/

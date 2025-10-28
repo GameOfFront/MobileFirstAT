@@ -1,0 +1,106 @@
+/* [project]/app/Tarefa6/styles.module.css [app-client] (css) */
+:root {
+  --cor-fundo: #f8f8f8;
+  --cor-texto: #222;
+  --cor-card: #fff;
+  --cor-destaque: #2563eb;
+  --cor-borda: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-fundo: #0f172a;
+    --cor-texto: #f1f5f9;
+    --cor-card: #1e293b;
+    --cor-destaque: #60a5fa;
+    --cor-borda: #334155;
+  }
+}
+
+.styles-module__BulbOW__container {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  transition: background .3s, color .3s;
+  display: flex;
+}
+
+.styles-module__BulbOW__titulo {
+  color: var(--cor-destaque);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.styles-module__BulbOW__lista {
+  background: var(--cor-card);
+  border: 1px solid var(--cor-borda);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+.styles-module__BulbOW__cabecalho, .styles-module__BulbOW__item, .styles-module__BulbOW__rodape {
+  grid-template-columns: 2fr 1fr .5fr 1fr;
+  align-items: center;
+  padding: .75rem 1rem;
+  display: grid;
+}
+
+.styles-module__BulbOW__cabecalho {
+  background: var(--cor-destaque);
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.styles-module__BulbOW__item {
+  border-bottom: 1px solid var(--cor-borda);
+  transition: background .2s;
+}
+
+.styles-module__BulbOW__item:hover {
+  cursor: pointer;
+  background: #2563eb14;
+}
+
+.styles-module__BulbOW__rodape {
+  background: var(--cor-card);
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .styles-module__BulbOW__lista {
+    max-width: 800px;
+  }
+
+  .styles-module__BulbOW__cabecalho, .styles-module__BulbOW__item, .styles-module__BulbOW__rodape {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .styles-module__BulbOW__container {
+    padding: 2rem;
+  }
+
+  .styles-module__BulbOW__titulo {
+    font-size: 2rem;
+  }
+
+  .styles-module__BulbOW__lista {
+    max-width: 900px;
+  }
+}
+
+/*# sourceMappingURL=app_Tarefa6_styles_module_baa520c9.css.map*/

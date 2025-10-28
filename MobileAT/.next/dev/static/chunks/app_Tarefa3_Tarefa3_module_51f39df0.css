@@ -1,0 +1,119 @@
+/* [project]/app/Tarefa3/Tarefa3.module.css [app-client] (css) */
+.Tarefa3-module__qa90SG__container {
+  color: #222;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.Tarefa3-module__qa90SG__controls {
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.Tarefa3-module__qa90SG__controls button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 6px;
+  padding: .5rem .9rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color .3s;
+}
+
+.Tarefa3-module__qa90SG__controls button:hover {
+  background-color: #1e4ec9;
+}
+
+.Tarefa3-module__qa90SG__controls span {
+  color: #333;
+  text-align: center;
+  width: 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.Tarefa3-module__qa90SG__gallery {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  display: flex;
+}
+
+.Tarefa3-module__qa90SG__box {
+  aspect-ratio: 1;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  flex: 160px;
+  justify-content: center;
+  align-items: center;
+  max-width: 220px;
+  transition: transform .2s, box-shadow .2s;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.Tarefa3-module__qa90SG__box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px #00000026;
+}
+
+.Tarefa3-module__qa90SG__image {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .Tarefa3-module__qa90SG__gallery {
+    gap: 1rem;
+    max-width: 900px;
+  }
+
+  .Tarefa3-module__qa90SG__box {
+    flex: 150px;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Tarefa3-module__qa90SG__gallery {
+    gap: .9rem;
+  }
+
+  .Tarefa3-module__qa90SG__box {
+    flex: 130px;
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Tarefa3-module__qa90SG__gallery {
+    gap: .75rem;
+  }
+
+  .Tarefa3-module__qa90SG__box {
+    flex: 110px;
+    max-width: 140px;
+  }
+}
+
+/*# sourceMappingURL=app_Tarefa3_Tarefa3_module_51f39df0.css.map*/

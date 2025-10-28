@@ -1,0 +1,171 @@
+/* ===== LAYOUT BASE (MOBILE-FIRST) ===== */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== TOPO (GLOBAL + HEADER LADO A LADO NO MOBILE) ===== */
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.globalMenu {
+  background-color: #3b82f6;
+  color: white;
+  text-align: center;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-weight: bold;
+  flex: 2;
+}
+
+.header {
+  background-color: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 0.75rem;
+  font-weight: bold;
+  border-radius: 8px;
+  flex: 1;
+}
+
+/* ===== ESCONDE ELEMENTOS DESKTOP NO MOBILE ===== */
+.desktopHeader,
+.desktopGlobalMenu {
+  display: none;
+}
+
+/* ===== CORPO ===== */
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contextMainWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* ===== SEÇÕES ===== */
+.contextMenu {
+  background-color: #e2e8f0;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  color: black;
+}
+
+.mainContent {
+  background-color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: black;
+}
+
+.ads {
+  background-color: #fef08a;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  color: black;
+}
+
+.footer {
+  background-color: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: auto;
+  font-weight: bold;
+}
+
+/* ===== DESKTOP (GRID LAYOUT) ===== */
+@media (min-width: 768px) {
+  /* Remove topo do mobile */
+  .topBar {
+    display: none;
+  }
+
+  /* Mostra elementos de desktop */
+  .desktopHeader,
+  .desktopGlobalMenu {
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    padding: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  .desktopHeader {
+    background-color: #2563eb;
+  }
+
+  .desktopGlobalMenu {
+    background-color: #3b82f6;
+  }
+
+  /* Estrutura do layout principal */
+  .contentWrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* esquerda e direita */
+    gap: 1rem;
+    flex-grow: 1;
+  }
+
+  .leftColumn {
+    display: grid;
+    grid-template-rows: auto 1fr; /* Global em cima, Context/Main embaixo */
+    gap: 1rem;
+  }
+
+  .contextMainWrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Context menor, Main maior */
+    gap: 1rem;
+  }
+}
+
+/* ===== EFEITOS VISUAIS ===== */
+.globalMenu,
+.header,
+.contextMenu,
+.mainContent,
+.ads,
+.desktopGlobalMenu,
+.desktopHeader {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.globalMenu:hover,
+.header:hover,
+.contextMenu:hover,
+.mainContent:hover,
+.ads:hover,
+.desktopGlobalMenu:hover,
+.desktopHeader:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

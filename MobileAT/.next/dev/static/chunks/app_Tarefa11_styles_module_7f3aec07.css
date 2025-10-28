@@ -1,0 +1,166 @@
+/* [project]/app/Tarefa11/styles.module.css [app-client] (css) */
+.styles-module__W3IaWq__container {
+  background-color: #f8fafc;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 100vh;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.styles-module__W3IaWq__header {
+  color: #fff;
+  text-align: center;
+  background-color: #2563eb;
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.styles-module__W3IaWq__contentWrapper, .styles-module__W3IaWq__leftColumn {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.styles-module__W3IaWq__globalMenu {
+  color: #fff;
+  text-align: center;
+  background-color: #3b82f6;
+  border-radius: 8px;
+  padding: .75rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.styles-module__W3IaWq__menuButton {
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  transition: opacity .2s;
+}
+
+.styles-module__W3IaWq__menuButton:hover {
+  opacity: .8;
+}
+
+.styles-module__W3IaWq__menuOptions {
+  opacity: 0;
+  flex-direction: column;
+  gap: .5rem;
+  max-height: 0;
+  margin-top: .5rem;
+  transition: max-height .3s, opacity .3s;
+  display: flex;
+  overflow: hidden;
+}
+
+.styles-module__W3IaWq__menuAberto {
+  opacity: 1;
+  max-height: 200px;
+}
+
+.styles-module__W3IaWq__menuItem {
+  color: #fff;
+  border-radius: 6px;
+  padding: .5rem;
+  text-decoration: none;
+  transition: background .2s, transform .2s;
+}
+
+.styles-module__W3IaWq__menuItem:hover {
+  background: #fff3;
+  transform: scale(1.05);
+}
+
+.styles-module__W3IaWq__contextMainWrapper {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.styles-module__W3IaWq__contextMenu {
+  text-align: center;
+  color: #000;
+  background-color: #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.styles-module__W3IaWq__mainContent {
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+.styles-module__W3IaWq__ads {
+  text-align: center;
+  color: #000;
+  background-color: #fef08a;
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.styles-module__W3IaWq__footer {
+  color: #fff;
+  text-align: center;
+  background-color: #2563eb;
+  border-radius: 8px;
+  margin-top: auto;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .styles-module__W3IaWq__contentWrapper {
+    flex-grow: 1;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+    display: grid;
+  }
+
+  .styles-module__W3IaWq__leftColumn {
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+    display: grid;
+  }
+
+  .styles-module__W3IaWq__contextMainWrapper {
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    display: grid;
+  }
+
+  .styles-module__W3IaWq__menuButton {
+    display: none;
+  }
+
+  .styles-module__W3IaWq__menuOptions {
+    opacity: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: none;
+    margin-top: 0;
+  }
+}
+
+.styles-module__W3IaWq__contextMenu, .styles-module__W3IaWq__mainContent, .styles-module__W3IaWq__ads {
+  transition: transform .2s, box-shadow .2s;
+}
+
+.styles-module__W3IaWq__contextMenu:hover, .styles-module__W3IaWq__mainContent:hover, .styles-module__W3IaWq__ads:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px #00000026;
+}
+
+/*# sourceMappingURL=app_Tarefa11_styles_module_7f3aec07.css.map*/

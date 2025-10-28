@@ -1,0 +1,112 @@
+/* [project]/app/Tarefa4/styles.module.css [app-client] (css) */
+.styles-module__am06kW__container {
+  background-color: #f5f5f5;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 100vh;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.styles-module__am06kW__header {
+  color: #fff;
+  text-align: center;
+  background-color: #2563eb;
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.styles-module__am06kW__contentWrapper, .styles-module__am06kW__leftColumn {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.styles-module__am06kW__globalMenu {
+  color: #fff;
+  text-align: center;
+  background-color: #3b82f6;
+  border-radius: 8px;
+  padding: .75rem;
+  font-weight: bold;
+}
+
+.styles-module__am06kW__contextMainWrapper {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.styles-module__am06kW__contextMenu {
+  text-align: center;
+  color: #000;
+  background-color: #e2e8f0;
+  border-radius: 8px;
+  flex: 1;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.styles-module__am06kW__mainContent {
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  border-radius: 8px;
+  flex: 2;
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+.styles-module__am06kW__ads {
+  text-align: center;
+  color: #000;
+  background-color: #fef08a;
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.styles-module__am06kW__footer {
+  color: #fff;
+  text-align: center;
+  background-color: #2563eb;
+  border-radius: 8px;
+  margin-top: auto;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .styles-module__am06kW__contentWrapper {
+    flex-grow: 1;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+    display: grid;
+  }
+
+  .styles-module__am06kW__leftColumn {
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+    display: grid;
+  }
+
+  .styles-module__am06kW__contextMainWrapper {
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    display: grid;
+  }
+}
+
+.styles-module__am06kW__globalMenu, .styles-module__am06kW__contextMenu, .styles-module__am06kW__mainContent, .styles-module__am06kW__ads {
+  transition: transform .2s, box-shadow .2s;
+}
+
+.styles-module__am06kW__globalMenu:hover, .styles-module__am06kW__contextMenu:hover, .styles-module__am06kW__mainContent:hover, .styles-module__am06kW__ads:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px #00000026;
+}
+
+/*# sourceMappingURL=app_Tarefa4_styles_module_dfbcac0c.css.map*/

@@ -1,0 +1,43 @@
+/* [project]/app/Tarefa1/styles.css [app-client] (css) */
+.tarefa1-container {
+  color: #1a1a1a;
+  background-color: #f8f8f8;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.tarefa1-content {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 1.5rem;
+  display: flex;
+}
+
+.tarefa1-title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.tarefa1-text {
+  color: #444;
+  max-width: 600px;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .tarefa1-title {
+    font-size: 2.5rem;
+  }
+
+  .tarefa1-text {
+    font-size: 1.25rem;
+  }
+}
+
+/*# sourceMappingURL=app_Tarefa1_styles_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,142 @@
+/* [project]/app/Components/NavBar/styles.css [app-client] (css) */
+.navbar {
+  color: #222;
+  z-index: 10;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  justify-content: space-between;
+  align-items: center;
+  padding: .75rem 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  position: relative;
+  box-shadow: 0 2px 6px #0000000d;
+}
+
+.navbar-logo {
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.navbar-brand {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navbar-menu {
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.navbar-menu li {
+  cursor: pointer;
+  color: #333;
+  font-size: 1rem;
+  transition: color .3s;
+}
+
+.navbar-menu li:hover {
+  color: #2563eb;
+}
+
+.navbar-icons {
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+}
+
+.user-icon {
+  color: #333;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: color .3s;
+}
+
+.user-icon:hover {
+  color: #2563eb;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: none;
+}
+
+.menu-icon {
+  color: #333;
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    background-color: inherit;
+    text-align: center;
+    width: 100%;
+    box-shadow: none;
+    z-index: 9;
+    border-top: 1px solid #ffffff1a;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1rem 0;
+    transition: all .3s;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .navbar-menu.open {
+    animation: .3s forwards fadeIn;
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    color: #f5f5f5;
+    background-color: #111;
+    border-bottom: 1px solid #333;
+  }
+
+  .navbar-menu {
+    background-color: #111;
+  }
+
+  .navbar-menu li {
+    color: #ccc;
+  }
+
+  .navbar-menu li:hover {
+    color: #60a5fa;
+  }
+
+  .user-icon, .menu-icon {
+    color: #ccc;
+  }
+}
+
+/*# sourceMappingURL=app_Components_NavBar_styles_css_bad6b30c._.single.css.map*/
