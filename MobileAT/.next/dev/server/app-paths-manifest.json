@@ -1,5 +1,11 @@
 {
-  "/Tarefa12/page": "app/Tarefa12/page.js",
-  "/Tarefa13/page": "app/Tarefa13/page.js",
+  "/Tarefa1/page": "app/Tarefa1/page.js",
+  "/Tarefa16/page": "app/Tarefa16/page.js",
+  "/Tarefa2/page": "app/Tarefa2/page.js",
+  "/Tarefa3/page": "app/Tarefa3/page.js",
+  "/Tarefa4/page": "app/Tarefa4/page.js",
+  "/Tarefa5/page": "app/Tarefa5/page.js",
+  "/Tarefa6/page": "app/Tarefa6/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js"
 }

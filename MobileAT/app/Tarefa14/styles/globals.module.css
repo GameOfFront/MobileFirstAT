@@ -1,0 +1,34 @@
+.container {
+  font-family: Arial, sans-serif;
+  color: #222;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.content {
+  flex: 3;
+}
+
+/* Substituímos o seletor 'aside' global por uma classe */
+.aside {
+  flex: 1;
+}
+
+/* Mobile-first */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  /* Em telas pequenas, o aside some */
+  .aside {
+    display: none;
+  }
+}

@@ -1,0 +1,44 @@
+.responses {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.responses h4 {
+  margin-bottom: 1rem;
+  color: #0d6efd;
+  font-size: 1.1rem;
+}
+
+.response {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.response:last-child {
+  border-bottom: none;
+}
+
+.response p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.meta span {
+  background: #f1f1f1;
+  padding: 3px 8px;
+  border-radius: 4px;
+}

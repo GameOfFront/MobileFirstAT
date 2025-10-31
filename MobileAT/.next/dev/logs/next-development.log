@@ -1,5 +1,5 @@
-[00:00:01.430] Server  LOG      ✓ Ready in 1065ms
-[00:00:11.440] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.565] Server  LOG      ✓ Ready in 1167ms
+[00:00:38.910] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -33,440 +33,11 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:00:15.572] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/Tarefa12" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         className="fusion-extension-loaded"
-                        >
-                  ...
-
-[00:02:32.601] Server  LOG      ✓ Compiled in 48ms
-[00:02:33.414] Browser ERROR   ./app/Tarefa12/page.tsx:20:8
-Ecmascript file had an error
-  18 | } from "@mui/material";
-  19 |
-> 20 | import Grid from "@mui/material/Grid";
-     |        ^^^^
-  21 |
-  22 |
-  23 | // ===== Tipagem dos itens =====
-
-the name `Grid` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-[00:02:37.415] Browser DEBUG   TSS: Counted history being replaced
-[00:02:37.415] Browser DEBUG   TSS: Caught history
-[00:02:37.415] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
-[00:03:03.378] Server  LOG      ✓ Compiled in 30ms
-[00:03:05.411] Browser ERROR   ./app/Tarefa12/page.tsx:20:8
-Ecmascript file had an error
-  18 | } from "@mui/material";
-  19 |
-> 20 | import Grid from "@mui/material/Grid";
-     |        ^^^^
-  21 |
-  22 |
-  23 | // ===== Tipagem dos itens =====
-
-the name `Grid` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-[00:03:06.409] Browser DEBUG   TSS: Counted history being replaced
-[00:03:06.409] Browser DEBUG   TSS: Caught history
-[00:03:06.409] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761667081281}
-[00:04:07.163] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.165] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.166] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.169] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.177] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.179] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.180] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.182] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.184] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.186] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.187] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.188] Server  ERROR    ⨯ ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:07.209] Server  LOG      ✓ Compiled in 44ms
-[00:04:07.411] Browser ERROR   ./app/Tarefa12/page.tsx:18:1
-Module not found: Can't resolve '@mui/material/Unstable_Grid2'
-  16 |   useMediaQuery,
-  17 | } from "@mui/material";
-> 18 | import Grid from "@mui/material/Unstable_Grid2"; // ✅ Novo sistema de Grid (não usa item/container)
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 |
-  20 | // ===== Tipagem dos itens =====
-  21 | interface Item {
-
-Import traces:
-  Client Component Browser:
-    ./app/Tarefa12/page.tsx [Client Component Browser]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/Tarefa12/page.tsx [Client Component SSR]
-    ./app/Tarefa12/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:27.415] Browser DEBUG   TSS: Counted history being replaced
-[00:04:27.415] Browser DEBUG   TSS: Caught history
-[00:04:27.415] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761667110547}
-[00:04:34.641] Server  LOG      ✓ Compiled in 34ms
-[00:06:12.920] Server  LOG      ✓ Compiled in 27ms
-[00:06:26.390] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/Tarefa12" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         className="fusion-extension-loaded"
-                        >
-                  ...
-
-[00:08:02.521] Browser LOG     TSS: Received response from checkDomainAndRun: {"isAllowListed":false,"isProtectionEnabled":true,"isScamsProtectionEnabled":true}
-[00:08:02.521] Browser DEBUG   injection-tss TSS: hosted page injected
-[00:08:02.521] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce
-[00:08:02.632] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:50.833] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:00:51.081] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:01:07.597] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -500,10 +71,28 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:19:15.416] Browser DEBUG   TSS: Counted history being replaced
-[00:19:15.416] Browser DEBUG   TSS: Caught history
-[00:19:15.416] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
-[00:23:01.926] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:01:08.786] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:01:08.889] Browser LOG     TSS: Received response from checkDomainAndRun: {"isAllowListed":false,"isProtectionEnabled":true,"isScamsProtectionEnabled":true}
+[00:01:08.889] Browser DEBUG   injection-tss TSS: hosted page injected
+[00:01:08.889] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce
+[00:01:09.008] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:06:12.614] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:12.819] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:06:13.242] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:06:21.000] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:21.171] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:06:22.240] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:06:24.294] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:06:24.512] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:06:30.663] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -521,7 +110,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/Tarefa13" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -537,53 +126,18 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:23:56.260] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/Tarefa13" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         className="fusion-extension-loaded"
-                        >
-                          ...
-                            <Quiz params={Promise} searchParams={Promise}>
-                              <Paper elevation={4} sx={{p:3,maxWidth:600, ...}}>
-                                <MuiPaper-root as="div" ownerState={{elevation:4, ...}} className="MuiPaper-r..." ...>
-                                  <Insertion>
-+                                 <div
-+                                   className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation4 c..."
-+                                   style={{--Paper-shadow:"0px 2px 4p..."}}
-+                                 >
--                                 <style data-emotion="css 1pi2mkb-MuiPaper-root" data-s="">
-                  ...
-
-[00:26:22.444] Server  LOG      ✓ Compiled in 29ms
-[01:08:53.701] Server  LOG      ✓ Compiled in 31ms
-[01:10:10.232] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:06:39.000] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:06:39.105] Browser LOG     TSS: Received response from checkDomainAndRun: {"isAllowListed":false,"isProtectionEnabled":true,"isScamsProtectionEnabled":true}
+[00:06:39.105] Browser DEBUG   injection-tss TSS: hosted page injected
+[00:06:39.105] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce
+[00:06:39.221] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:07:26.673] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/produtos/rel-2.jpg" "received" null
+[00:07:26.681] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/produtos/produto-principal.jpg" "received" null
+[00:07:26.682] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/produtos/rel-1.jpg" "received" null
+[00:07:26.709] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/produtos/rel-3.jpg" "received" null
+[00:07:27.243] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -601,7 +155,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/Tarefa13" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/Tarefa16" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -617,3 +171,112 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
+[00:08:26.461] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/Smartphone" "received" null
+[00:08:27.244] Browser DEBUG   TSS: Counted history being replaced
+[00:08:27.245] Browser DEBUG   TSS: Caught history
+[00:08:27.245] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
+[00:08:29.254] Browser DEBUG   TSS: Counted history being replaced
+[00:08:29.254] Browser DEBUG   TSS: Caught history
+[00:08:29.254] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929077656}
+[00:08:47.245] Browser DEBUG   TSS: Counted history being replaced
+[00:08:47.245] Browser DEBUG   TSS: Caught history
+[00:08:47.245] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929080345}
+[00:08:50.246] Browser DEBUG   TSS: Counted history being replaced
+[00:08:50.246] Browser DEBUG   TSS: Caught history
+[00:08:50.246] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929098179}
+[00:08:52.619] Browser DEBUG   TSS: Counted history being replaced
+[00:08:52.619] Browser DEBUG   TSS: Caught history
+[00:08:52.619] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929100951}
+[00:15:47.540] Server  LOG      ✓ Compiled in 43ms
+[00:15:59.247] Browser DEBUG   TSS: Counted history being replaced
+[00:15:59.247] Browser DEBUG   TSS: Caught history
+[00:15:59.247] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929103441}
+[00:16:02.249] Browser DEBUG   TSS: Counted history being replaced
+[00:16:02.249] Browser DEBUG   TSS: Caught history
+[00:16:02.249] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929530144}
+[00:17:34.400] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="fusion-extension-loaded"
+                        >
+                  ...
+
+[00:17:45.804] Browser DEBUG   TSS: Counted history being pushed
+[00:17:45.804] Browser DEBUG   TSS: Caught history
+[00:17:45.804] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
+[00:17:45.804] Browser WARN    Image with src "http://localhost:3000/next.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:17:49.553] Browser DEBUG   TSS: Counted history being replaced
+[00:17:49.553] Browser DEBUG   TSS: Caught history
+[00:17:49.553] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929636910}
+[00:17:50.624] Browser DEBUG   TSS: Counted history being pushed
+[00:17:50.624] Browser DEBUG   TSS: Caught history
+[00:17:50.624] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929640684}
+[00:17:53.372] Browser DEBUG   TSS: Counted history being replaced
+[00:17:53.373] Browser DEBUG   TSS: Caught history
+[00:17:53.373] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929641740}
+[00:17:54.317] Browser DEBUG   TSS: Counted history being pushed
+[00:17:54.317] Browser DEBUG   TSS: Caught history
+[00:17:54.318] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929644490}
+[00:17:56.787] Browser DEBUG   TSS: Counted history being replaced
+[00:17:56.787] Browser DEBUG   TSS: Caught history
+[00:17:56.787] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1761929644490}
+[00:17:57.966] Browser DEBUG   TSS: Counted history being pushed
+[00:17:57.966] Browser DEBUG   TSS: Caught history
+[00:17:57.966] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929647904}
+[00:18:00.668] Browser DEBUG   TSS: Counted history being replaced
+[00:18:00.668] Browser DEBUG   TSS: Caught history
+[00:18:00.668] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929649093}
+[00:18:01.769] Browser DEBUG   TSS: Counted history being pushed
+[00:18:01.769] Browser DEBUG   TSS: Caught history
+[00:18:01.769] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929651786}
+[00:18:05.760] Browser DEBUG   TSS: Counted history being replaced
+[00:18:05.760] Browser DEBUG   TSS: Caught history
+[00:18:05.760] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929652901}
+[00:18:06.908] Browser DEBUG   TSS: Counted history being pushed
+[00:18:06.908] Browser DEBUG   TSS: Caught history
+[00:18:06.908] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929656891}
+[00:18:08.443] Browser DEBUG   TSS: Counted history being replaced
+[00:18:08.443] Browser DEBUG   TSS: Caught history
+[00:18:08.443] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929658040}
+[00:18:10.233] Browser DEBUG   TSS: Counted history being pushed
+[00:18:10.233] Browser DEBUG   TSS: Caught history
+[00:18:10.233] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929659570}
+[00:18:14.840] Browser DEBUG   TSS: Counted history being replaced
+[00:18:14.840] Browser DEBUG   TSS: Caught history
+[00:18:14.840] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929661360}
+[00:18:29.517] Browser DEBUG   TSS: Counted history being pushed
+[00:18:29.517] Browser DEBUG   TSS: Caught history
+[00:18:29.517] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929665967}
+[00:21:50.214] Browser DEBUG   TSS: Counted history being replaced
+[00:21:50.214] Browser DEBUG   TSS: Caught history
+[00:21:50.214] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929680649}
+[00:21:52.618] Browser DEBUG   TSS: Counted history being pushed
+[00:21:52.618] Browser DEBUG   TSS: Caught history
+[00:21:52.618] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929881335}

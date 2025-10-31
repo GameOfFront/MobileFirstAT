@@ -43,6 +43,46 @@ function HomePage() {
         {
             nome: "Tarefa 6",
             rota: "/Tarefa6"
+        },
+        {
+            nome: "Tarefa 7",
+            rota: "/Tarefa7"
+        },
+        {
+            nome: "Tarefa 8",
+            rota: "/Tarefa8"
+        },
+        {
+            nome: "Tarefa 9",
+            rota: "/Tarefa9"
+        },
+        {
+            nome: "Tarefa 10",
+            rota: "/Tarefa10"
+        },
+        {
+            nome: "Tarefa 11",
+            rota: "/Tarefa11"
+        },
+        {
+            nome: "Tarefa 12",
+            rota: "/Tarefa12"
+        },
+        {
+            nome: "Tarefa 13",
+            rota: "/Tarefa13"
+        },
+        {
+            nome: "Tarefa 14",
+            rota: "/Tarefa14"
+        },
+        {
+            nome: "Tarefa 15",
+            rota: "/Tarefa15"
+        },
+        {
+            nome: "Tarefa 16",
+            rota: "/Tarefa16"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -53,7 +93,7 @@ function HomePage() {
                 children: "AT Mobile-first UI com React"
             }, void 0, false, {
                 fileName: "[project]/app/Home/page.tsx",
-                lineNumber: 17,
+                lineNumber: 28,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -64,12 +104,12 @@ function HomePage() {
                         children: tarefa.nome
                     }, index, false, {
                         fileName: "[project]/app/Home/page.tsx",
-                        lineNumber: 21,
+                        lineNumber: 32,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/Home/page.tsx",
-                lineNumber: 19,
+                lineNumber: 30,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -77,13 +117,13 @@ function HomePage() {
                 children: "Clique em uma tarefa para visualizar o conteúdo correspondente."
             }, void 0, false, {
                 fileName: "[project]/app/Home/page.tsx",
-                lineNumber: 27,
+                lineNumber: 38,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/Home/page.tsx",
-        lineNumber: 16,
+        lineNumber: 27,
         columnNumber: 5
     }, this);
 }

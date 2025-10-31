@@ -270,6 +270,10 @@
 @layer components;
 
 @layer utilities {
+  .sticky {
+    position: sticky;
+  }
+
   .container {
     width: 100%;
   }
@@ -306,6 +310,10 @@
 
   .flex {
     display: flex;
+  }
+
+  .grid {
+    display: grid;
   }
 
   .table {

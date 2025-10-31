@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+.next/
+dist/
+out/
+build/
+
+# Editor / Sistema
+.vscode/
+.DS_Store
+*.env.local
+*.env.development
+*.env.production
+.env
