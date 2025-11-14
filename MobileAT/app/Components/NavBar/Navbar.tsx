@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="navbar">
       {/* LOGO - alinhado à esquerda */}
       <div className="navbar-logo">
-        <Image src="/next.svg" alt="Logo" width={32} height={32} />
+        <Image src="/logo.png" alt="Logo" width={32} height={32} />
         <span className="navbar-brand">Brand</span>
       </div>
 

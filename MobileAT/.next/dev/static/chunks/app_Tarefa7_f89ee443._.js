@@ -42,7 +42,7 @@ const Card = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sty
 `;
 const Header = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$components$2f$dist$2f$styled$2d$components$2e$browser$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].div`
   display: flex;
-  align-items: stretch; /* Faz os filhos (imagem + texto) ficarem com mesma altura */
+  align-items: stretch; 
   justify-content: space-between;
   padding: 1rem;
   border-bottom: 1px solid #ddd;
@@ -56,7 +56,7 @@ const Header = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$s
     color: #2563eb;
     cursor: pointer;
     transition: transform 0.2s ease;
-    align-self: flex-start; /* Faz o ícone ficar no topo direito */
+    align-self: flex-start; 
 
     &:hover {
       transform: scale(1.2);
@@ -69,13 +69,13 @@ const Header = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$s
   }
 `;
 const Foto = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$components$2f$dist$2f$styled$2d$components$2e$browser$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].img`
-  width: 110px; /* um pouco mais larga, proporcional */
+  width: 110px; 
   height: auto;
-  aspect-ratio: 3 / 4; /* mantém proporção de retrato */
+  aspect-ratio: 3 / 4; 
   border-radius: 8px;
   object-fit: cover;
   border: 2px solid #2563eb;
-  flex-shrink: 0; /* impede de diminuir com textos grandes */
+  flex-shrink: 0; 
 `;
 const InfoBox = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$components$2f$dist$2f$styled$2d$components$2e$browser$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].div`
   display: flex;

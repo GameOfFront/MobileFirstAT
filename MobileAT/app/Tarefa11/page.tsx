@@ -38,7 +38,7 @@ export default function Tarefa11() {
             </div>
           </nav>
 
-          {/* ===== CONTEXTO + CONTEÚDO ===== */}
+          {/* ===== CONTEXT + CONTEÚDO ===== */}
           <div className={styles.contextMainWrapper}>
             <aside className={styles.contextMenu}>Context Menu</aside>
             <section className={styles.mainContent}>Main Content</section>

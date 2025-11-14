@@ -16,7 +16,6 @@ import FriendsList from "./components/FriendsList";
 import SuggestionsList from "./components/SuggestionsList";
 
 export default function Page() {
-  // Estado para controlar o Drawer no mobile
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const darkTheme = createTheme({
@@ -36,7 +35,7 @@ export default function Page() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
 
-      {/* HEADER - botão de menu conectado ao Drawer */}
+      {/* HEADER */}
       <Header onMenuClick={() => setDrawerOpen(true)} />
 
       <Box sx={{ flexGrow: 1, p: 2 }}>

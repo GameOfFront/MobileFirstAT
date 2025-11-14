@@ -1,4 +1,3 @@
-// ===== Tipagem e lista de questões =====
 export interface Question {
   id: number;
   enunciado: string;

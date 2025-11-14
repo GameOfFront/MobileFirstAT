@@ -24,7 +24,7 @@ export default function Tarefa3() {
         {boxes.map((i) => (
           <div key={i} className={styles.box}>
             <Image
-              src="/foto.jpg" // nome do arquivo dentro da pasta public
+              src="/foto.jpg"
               alt={`Imagem ${i + 1}`}
               width={100}
               height={100}

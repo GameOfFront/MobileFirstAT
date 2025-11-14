@@ -23,20 +23,21 @@ function MenuVertical() {
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            !open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                 onClick: ()=>setOpen(true),
                 className: "menu-btn",
+                "aria-label": "Abrir menu",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                     className: "icon"
                 }, void 0, false, {
                     fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                    lineNumber: 15,
-                    columnNumber: 9
+                    lineNumber: 19,
+                    columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
                 lineNumber: 14,
-                columnNumber: 7
+                columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
                 className: `menu-vertical ${open ? "open" : ""}`,
@@ -48,13 +49,13 @@ function MenuVertical() {
                                 className: "menu-logo",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/next.svg",
+                                        src: "/logo.png",
                                         alt: "Logo",
                                         width: 32,
                                         height: 32
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                        lineNumber: 22,
+                                        lineNumber: 26,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -62,34 +63,35 @@ function MenuVertical() {
                                         children: "Brand"
                                     }, void 0, false, {
                                         fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                        lineNumber: 23,
+                                        lineNumber: 27,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                lineNumber: 21,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: ()=>setOpen(false),
                                 className: "menu-close",
+                                "aria-label": "Fechar menu",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                                     className: "icon"
                                 }, void 0, false, {
                                     fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                    lineNumber: 26,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                lineNumber: 25,
+                                lineNumber: 30,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                        lineNumber: 20,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -99,62 +101,62 @@ function MenuVertical() {
                                 children: "Perfil"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                lineNumber: 31,
+                                lineNumber: 40,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 children: "Postagens"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                lineNumber: 32,
+                                lineNumber: 41,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 children: "Amigos"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                lineNumber: 33,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 children: "Fotos"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                lineNumber: 34,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 children: "Vídeos"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                lineNumber: 35,
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 children: "Configurações"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                lineNumber: 36,
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 children: "Mensagens"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                lineNumber: 37,
+                                lineNumber: 46,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 children: "Notificações"
                             }, void 0, false, {
                                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                                lineNumber: 38,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                        lineNumber: 30,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -162,13 +164,13 @@ function MenuVertical() {
                         children: "© 2025 MeuApp"
                     }, void 0, false, {
                         fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                        lineNumber: 41,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                lineNumber: 19,
+                lineNumber: 23,
                 columnNumber: 7
             }, this),
             open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -176,8 +178,8 @@ function MenuVertical() {
                 onClick: ()=>setOpen(false)
             }, void 0, false, {
                 fileName: "[project]/app/Components/MenuVertical/MenuVertical.tsx",
-                lineNumber: 45,
-                columnNumber: 16
+                lineNumber: 54,
+                columnNumber: 9
             }, this)
         ]
     }, void 0, true);

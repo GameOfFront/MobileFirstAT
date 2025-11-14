@@ -10,19 +10,28 @@ export default function MenuVertical() {
 
   return (
     <>
-      {/* BOTÃO MOBILE (FIXO NO TOPO) */}
-      <button onClick={() => setOpen(true)} className="menu-btn">
-        <Menu className="icon" />
-      </button>
+      {!open && (
+        <button
+          onClick={() => setOpen(true)}
+          className="menu-btn"
+          aria-label="Abrir menu"
+        >
+          <Menu className="icon" />
+        </button>
+      )}
 
-      {/* MENU PRINCIPAL */}
       <aside className={`menu-vertical ${open ? "open" : ""}`}>
         <div className="menu-header">
           <div className="menu-logo">
-            <Image src="/next.svg" alt="Logo" width={32} height={32} />
+            <Image src="/logo.png" alt="Logo" width={32} height={32} />
             <span className="brand">Brand</span>
           </div>
-          <button onClick={() => setOpen(false)} className="menu-close">
+
+          <button
+            onClick={() => setOpen(false)}
+            className="menu-close"
+            aria-label="Fechar menu"
+          >
             <X className="icon" />
           </button>
         </div>
@@ -41,8 +50,12 @@ export default function MenuVertical() {
         <div className="menu-footer">© 2025 MeuApp</div>
       </aside>
 
-      {/* BACKDROP AO ABRIR */}
-      {open && <div className="menu-overlay" onClick={() => setOpen(false)}></div>}
+      {open && (
+        <div
+          className="menu-overlay"
+          onClick={() => setOpen(false)}
+        ></div>
+      )}
     </>
   );
 }

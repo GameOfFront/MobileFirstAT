@@ -1,4 +1,4 @@
-/* ===== LAYOUT BASE (MOBILE-FIRST) ===== */
+/* ===== LAYOUT BASE===== */
 .container {
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ===== TOPO (GLOBAL + HEADER LADO A LADO NO MOBILE) ===== */
+/* ===== TOPO===== */
 .topBar {
   display: flex;
   justify-content: space-between;
@@ -130,20 +130,20 @@
   /* Estrutura do layout principal */
   .contentWrapper {
     display: grid;
-    grid-template-columns: 3fr 1fr; /* esquerda e direita */
+    grid-template-columns: 3fr 1fr; 
     gap: 1rem;
     flex-grow: 1;
   }
 
   .leftColumn {
     display: grid;
-    grid-template-rows: auto 1fr; /* Global em cima, Context/Main embaixo */
+    grid-template-rows: auto 1fr; 
     gap: 1rem;
   }
 
   .contextMainWrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr; /* Context menor, Main maior */
+    grid-template-columns: 1fr 2fr;
     gap: 1rem;
   }
 }

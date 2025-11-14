@@ -37,7 +37,6 @@ const handleNext = () => {
   if (currentQuestion < questions.length - 1) {
     setCurrentQuestion((prev) => prev + 1);
   } else {
-    // Exibe a pontuação final
     alert(`Quiz finalizado! Sua pontuação: ${score}/${questions.length}`);
 
     // Reinicia o quiz

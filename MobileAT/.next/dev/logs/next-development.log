@@ -1,5 +1,5 @@
-[00:00:01.565] Server  LOG      ✓ Ready in 1167ms
-[00:00:38.910] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.271] Server  LOG      ✓ Ready in 947ms
+[00:00:08.889] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -33,11 +33,155 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:00:50.833] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:00:51.081] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:01:07.597] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:10.273] Browser DEBUG   TSS: Counted history being pushed
+[00:00:10.273] Browser DEBUG   TSS: Caught history
+[00:00:10.273] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
+[00:00:13.551] Browser DEBUG   TSS: Counted history being replaced
+[00:00:13.551] Browser DEBUG   TSS: Caught history
+[00:00:13.551] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763076071646}
+[00:10:11.322] Browser DEBUG   TSS: Counted history being pushed
+[00:10:11.322] Browser DEBUG   TSS: Caught history
+[00:10:11.322] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763076074923}
+[00:12:23.867] Browser DEBUG   TSS: Counted history being replaced
+[00:12:23.867] Browser DEBUG   TSS: Caught history
+[00:12:23.867] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763076672699}
+[00:12:25.305] Browser DEBUG   TSS: Counted history being pushed
+[00:12:25.305] Browser DEBUG   TSS: Caught history
+[00:12:25.305] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763076805239}
+[00:12:26.992] Browser DEBUG   TSS: Counted history being replaced
+[00:12:26.992] Browser DEBUG   TSS: Caught history
+[00:12:26.992] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763076806685}
+[00:12:28.021] Browser DEBUG   TSS: Counted history being pushed
+[00:12:28.021] Browser DEBUG   TSS: Caught history
+[00:12:28.021] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763076808366}
+[00:12:29.559] Browser DEBUG   TSS: Counted history being replaced
+[00:12:29.559] Browser DEBUG   TSS: Caught history
+[00:12:29.559] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763076809398}
+[00:12:31.335] Browser DEBUG   TSS: Counted history being pushed
+[00:12:31.335] Browser DEBUG   TSS: Caught history
+[00:12:31.335] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763076810929}
+[00:23:30.994] Browser DEBUG   TSS: Counted history being replaced
+[00:23:30.994] Browser DEBUG   TSS: Caught history
+[00:23:30.994] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763076812703}
+[00:23:33.519] Browser WARN    styled-components: it looks like an unknown prop "aberto" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.)
+[00:23:33.519] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
+
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead. false aberto aberto false aberto aberto aberto
+[00:23:33.519] Browser DEBUG   TSS: Counted history being pushed
+[00:23:33.519] Browser DEBUG   TSS: Caught history
+[00:23:33.519] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077472375}
+[00:23:36.164] Browser DEBUG   TSS: Counted history being replaced
+[00:23:36.164] Browser DEBUG   TSS: Caught history
+[00:23:36.164] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077474898}
+[00:23:37.361] Browser DEBUG   TSS: Counted history being pushed
+[00:23:37.361] Browser DEBUG   TSS: Caught history
+[00:23:37.361] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077477534}
+[00:23:38.809] Browser DEBUG   TSS: Counted history being replaced
+[00:23:38.809] Browser DEBUG   TSS: Caught history
+[00:23:38.809] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077478739}
+[00:23:41.652] Browser DEBUG   TSS: Counted history being pushed
+[00:23:41.652] Browser DEBUG   TSS: Caught history
+[00:23:41.652] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077480188}
+[00:23:47.213] Browser DEBUG   TSS: Counted history being replaced
+[00:23:47.213] Browser DEBUG   TSS: Caught history
+[00:23:47.213] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077483019}
+[00:23:49.504] Browser DEBUG   TSS: Counted history being pushed
+[00:23:49.504] Browser DEBUG   TSS: Caught history
+[00:23:49.504] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077488582}
+[00:23:51.059] Browser DEBUG   TSS: Counted history being replaced
+[00:23:51.059] Browser DEBUG   TSS: Caught history
+[00:23:51.059] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077490880}
+[00:23:53.304] Browser DEBUG   TSS: Counted history being pushed
+[00:23:53.304] Browser DEBUG   TSS: Caught history
+[00:23:53.304] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077492429}
+[00:24:00.064] Browser DEBUG   TSS: Counted history being replaced
+[00:24:00.064] Browser DEBUG   TSS: Caught history
+[00:24:00.064] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077494678}
+[00:24:01.233] Browser DEBUG   TSS: Counted history being pushed
+[00:24:01.233] Browser DEBUG   TSS: Caught history
+[00:24:01.233] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077501435}
+[00:24:03.913] Browser DEBUG   TSS: Counted history being replaced
+[00:24:03.913] Browser DEBUG   TSS: Caught history
+[00:24:03.913] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077502612}
+[00:24:05.113] Browser DEBUG   TSS: Counted history being pushed
+[00:24:05.113] Browser DEBUG   TSS: Caught history
+[00:24:05.113] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077505281}
+[00:24:24.792] Browser DEBUG   TSS: Counted history being replaced
+[00:24:24.792] Browser DEBUG   TSS: Caught history
+[00:24:24.792] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077506494}
+[00:24:27.599] Browser DEBUG   TSS: Counted history being pushed
+[00:24:27.599] Browser DEBUG   TSS: Caught history
+[00:24:27.599] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077526162}
+[00:24:29.044] Browser DEBUG   TSS: Counted history being replaced
+[00:24:29.044] Browser DEBUG   TSS: Caught history
+[00:24:29.044] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077528967}
+[00:24:30.053] Browser DEBUG   TSS: Counted history being pushed
+[00:24:30.053] Browser DEBUG   TSS: Caught history
+[00:24:30.053] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077530416}
+[00:24:32.837] Browser DEBUG   TSS: Counted history being replaced
+[00:24:32.837] Browser DEBUG   TSS: Caught history
+[00:24:32.837] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077531423}
+[00:24:34.369] Browser DEBUG   TSS: Counted history being pushed
+[00:24:34.369] Browser DEBUG   TSS: Caught history
+[00:24:34.369] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077534212}
+[00:24:35.546] Browser DEBUG   TSS: Counted history being replaced
+[00:24:35.546] Browser DEBUG   TSS: Caught history
+[00:24:35.546] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077535745}
+[00:24:36.519] Browser DEBUG   TSS: Counted history being pushed
+[00:24:36.519] Browser DEBUG   TSS: Caught history
+[00:24:36.519] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077536917}
+[00:24:37.472] Browser DEBUG   TSS: Counted history being replaced
+[00:24:37.472] Browser DEBUG   TSS: Caught history
+[00:24:37.472] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1763077536917}
+[00:24:38.593] Browser DEBUG   TSS: Counted history being pushed
+[00:24:38.593] Browser DEBUG   TSS: Caught history
+[00:24:38.593] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077538847}
+[00:24:39.465] Browser DEBUG   TSS: Counted history being replaced
+[00:24:39.465] Browser DEBUG   TSS: Caught history
+[00:24:39.465] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077539975}
+[00:24:40.034] Browser DEBUG   TSS: Counted history being pushed
+[00:24:40.034] Browser DEBUG   TSS: Caught history
+[00:24:40.034] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1763077539975}
+[00:24:41.068] Browser DEBUG   TSS: Counted history being replaced
+[00:24:41.068] Browser DEBUG   TSS: Caught history
+[00:24:41.068] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077541416}
+[00:24:41.881] Browser DEBUG   TSS: Counted history being pushed
+[00:24:41.881] Browser DEBUG   TSS: Caught history
+[00:24:41.881] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077542441}
+[00:24:42.733] Browser DEBUG   TSS: Counted history being replaced
+[00:24:42.733] Browser DEBUG   TSS: Caught history
+[00:24:42.733] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1763077542441}
+[00:24:45.546] Browser DEBUG   TSS: Counted history being pushed
+[00:24:45.546] Browser DEBUG   TSS: Caught history
+[00:24:45.546] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077544115}
+[00:24:46.395] Browser DEBUG   TSS: Counted history being replaced
+[00:24:46.395] Browser DEBUG   TSS: Caught history
+[00:24:46.395] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077546927}
+[00:24:47.494] Browser DEBUG   TSS: Counted history being pushed
+[00:24:47.494] Browser DEBUG   TSS: Caught history
+[00:24:47.494] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1763077546927}
+[00:24:49.168] Browser DEBUG   TSS: Counted history being replaced
+[00:24:49.168] Browser DEBUG   TSS: Caught history
+[00:24:49.168] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077548868}
+[00:24:50.552] Browser DEBUG   TSS: Counted history being pushed
+[00:24:50.552] Browser DEBUG   TSS: Caught history
+[00:24:50.552] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077550536}
+[00:24:51.811] Browser DEBUG   TSS: Counted history being replaced
+[00:24:51.811] Browser DEBUG   TSS: Caught history
+[00:24:51.811] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077551932}
+[00:24:52.743] Browser DEBUG   TSS: Counted history being pushed
+[00:24:52.743] Browser DEBUG   TSS: Caught history
+[00:24:52.743] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077553193}
+[00:26:07.559] Browser DEBUG   TSS: Counted history being replaced
+[00:26:07.559] Browser DEBUG   TSS: Caught history
+[00:26:07.559] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1763077553193}
+[00:26:09.004] Browser DEBUG   TSS: Counted history being pushed
+[00:26:09.004] Browser DEBUG   TSS: Caught history
+[00:26:09.004] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763077628931}
+[00:29:40.273] Server  LOG      ✓ Compiled in 72ms
+[00:29:55.219] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -55,7 +199,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/Tarefa12" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -71,73 +215,46 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:01:08.786] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:01:08.889] Browser LOG     TSS: Received response from checkDomainAndRun: {"isAllowListed":false,"isProtectionEnabled":true,"isScamsProtectionEnabled":true}
-[00:01:08.889] Browser DEBUG   injection-tss TSS: hosted page injected
-[00:01:08.889] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce
-[00:01:09.008] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:06:12.614] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:06:12.819] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:06:13.242] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:06:21.000] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:06:21.171] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:06:22.240] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:06:24.294] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:06:24.512] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:06:30.663] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         className="fusion-extension-loaded"
-                        >
-                  ...
-
-[00:06:39.000] Server  ERROR    ⨯ Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:06:39.105] Browser LOG     TSS: Received response from checkDomainAndRun: {"isAllowListed":false,"isProtectionEnabled":true,"isScamsProtectionEnabled":true}
-[00:06:39.105] Browser DEBUG   injection-tss TSS: hosted page injected
-[00:06:39.105] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce
-[00:06:39.221] Browser ERROR   uncaughtError: Error: Invalid src prop (https://via.placeholder.com/400x300?text=Produto+Principal) on `next/image`, hostname "via.placeholder.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:07:26.673] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/produtos/rel-2.jpg" "received" null
-[00:07:26.681] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/produtos/produto-principal.jpg" "received" null
-[00:07:26.682] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/produtos/rel-1.jpg" "received" null
-[00:07:26.709] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/produtos/rel-3.jpg" "received" null
-[00:07:27.243] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:30:00.099] Server  LOG      ✓ Compiled in 27ms
+[00:32:04.546] Server  LOG      ✓ Compiled in 84ms
+[00:33:18.930] Browser DEBUG   TSS: Counted history being replaced
+[00:33:18.930] Browser DEBUG   TSS: Caught history
+[00:33:18.930] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
+[00:33:21.729] Browser DEBUG   TSS: Counted history being pushed
+[00:33:21.729] Browser DEBUG   TSS: Caught history
+[00:33:21.729] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078060302}
+[00:33:55.615] Browser DEBUG   TSS: Counted history being replaced
+[00:33:55.615] Browser DEBUG   TSS: Caught history
+[00:33:55.615] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078063109}
+[00:33:57.542] Browser DEBUG   TSS: Counted history being pushed
+[00:33:57.542] Browser DEBUG   TSS: Caught history
+[00:33:57.543] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078096990}
+[00:33:59.829] Browser DEBUG   TSS: Counted history being replaced
+[00:33:59.829] Browser DEBUG   TSS: Caught history
+[00:33:59.829] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078098921}
+[00:34:00.940] Browser DEBUG   TSS: Counted history being pushed
+[00:34:00.940] Browser DEBUG   TSS: Caught history
+[00:34:00.940] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078101209}
+[00:34:09.568] Server  LOG      ✓ Compiled in 23ms
+[00:34:17.981] Browser DEBUG   TSS: Counted history being replaced
+[00:34:17.981] Browser DEBUG   TSS: Caught history
+[00:34:17.981] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078102310}
+[00:34:20.042] Browser DEBUG   TSS: Counted history being pushed
+[00:34:20.042] Browser DEBUG   TSS: Caught history
+[00:34:20.042] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078119348}
+[00:34:57.596] Browser DEBUG   TSS: Counted history being replaced
+[00:34:57.596] Browser DEBUG   TSS: Caught history
+[00:34:57.596] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078121414}
+[00:35:34.301] Browser DEBUG   TSS: Counted history being pushed
+[00:35:34.301] Browser DEBUG   TSS: Caught history
+[00:35:34.301] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078158975}
+[00:36:40.150] Browser DEBUG   TSS: Counted history being replaced
+[00:36:40.150] Browser DEBUG   TSS: Caught history
+[00:36:40.150] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078195678}
+[00:36:41.426] Browser DEBUG   TSS: Counted history being pushed
+[00:36:41.426] Browser DEBUG   TSS: Caught history
+[00:36:41.426] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078261528}
+[00:37:06.767] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -171,112 +288,135 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:08:26.461] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/Smartphone" "received" null
-[00:08:27.244] Browser DEBUG   TSS: Counted history being replaced
-[00:08:27.245] Browser DEBUG   TSS: Caught history
-[00:08:27.245] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
-[00:08:29.254] Browser DEBUG   TSS: Counted history being replaced
-[00:08:29.254] Browser DEBUG   TSS: Caught history
-[00:08:29.254] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929077656}
-[00:08:47.245] Browser DEBUG   TSS: Counted history being replaced
-[00:08:47.245] Browser DEBUG   TSS: Caught history
-[00:08:47.245] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929080345}
-[00:08:50.246] Browser DEBUG   TSS: Counted history being replaced
-[00:08:50.246] Browser DEBUG   TSS: Caught history
-[00:08:50.246] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929098179}
-[00:08:52.619] Browser DEBUG   TSS: Counted history being replaced
-[00:08:52.619] Browser DEBUG   TSS: Caught history
-[00:08:52.619] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929100951}
-[00:15:47.540] Server  LOG      ✓ Compiled in 43ms
-[00:15:59.247] Browser DEBUG   TSS: Counted history being replaced
-[00:15:59.247] Browser DEBUG   TSS: Caught history
-[00:15:59.247] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929103441}
-[00:16:02.249] Browser DEBUG   TSS: Counted history being replaced
-[00:16:02.249] Browser DEBUG   TSS: Caught history
-[00:16:02.249] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929530144}
-[00:17:34.400] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:39:00.452] Browser DEBUG   TSS: Counted history being replaced
+[00:39:00.452] Browser DEBUG   TSS: Caught history
+[00:39:00.452] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
+[00:41:22.401] Browser DEBUG   TSS: Counted history being pushed
+[00:41:22.401] Browser DEBUG   TSS: Caught history
+[00:41:22.401] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078401824}
+[00:44:04.386] Browser DEBUG   TSS: Counted history being replaced
+[00:44:04.386] Browser DEBUG   TSS: Caught history
+[00:44:04.386] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078543775}
+[00:44:06.438] Browser DEBUG   TSS: Counted history being pushed
+[00:44:06.438] Browser DEBUG   TSS: Caught history
+[00:44:06.438] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078705753}
+[00:46:14.275] Browser DEBUG   TSS: Counted history being replaced
+[00:46:14.275] Browser DEBUG   TSS: Caught history
+[00:46:14.275] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078707819}
+[00:46:15.065] Browser DEBUG   TSS: Counted history being pushed
+[00:46:15.065] Browser DEBUG   TSS: Caught history
+[00:46:15.065] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078835648}
+[00:47:46.379] Browser DEBUG   TSS: Counted history being replaced
+[00:47:46.379] Browser DEBUG   TSS: Caught history
+[00:47:46.379] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1763078835648}
+[00:47:47.673] Browser DEBUG   TSS: Counted history being pushed
+[00:47:47.674] Browser DEBUG   TSS: Caught history
+[00:47:47.674] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078927757}
+[00:49:25.542] Browser DEBUG   TSS: Counted history being replaced
+[00:49:25.542] Browser DEBUG   TSS: Caught history
+[00:49:25.542] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763078929055}
+[00:49:26.657] Browser DEBUG   TSS: Counted history being pushed
+[00:49:26.657] Browser DEBUG   TSS: Caught history
+[00:49:26.657] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079026920}
+[00:50:38.894] Browser DEBUG   TSS: Counted history being replaced
+[00:50:38.894] Browser DEBUG   TSS: Caught history
+[00:50:38.894] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079028038}
+[00:50:40.079] Browser DEBUG   TSS: Counted history being pushed
+[00:50:40.079] Browser DEBUG   TSS: Caught history
+[00:50:40.079] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079100275}
+[00:53:09.380] Server  LOG      ✓ Compiled in 23ms
+[00:53:12.175] Server  LOG      ✓ Compiled in 22ms
+[00:53:16.109] Server  LOG      ✓ Compiled in 21ms
+[00:53:19.499] Server  LOG      ✓ Compiled in 22ms
+[00:53:23.520] Server  LOG      ✓ Compiled in 23ms
+[00:53:28.508] Server  LOG      ✓ Compiled in 24ms
+[00:53:36.124] Browser DEBUG   TSS: Counted history being replaced
+[00:53:36.124] Browser DEBUG   TSS: Caught history
+[00:53:36.124] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079101460}
+[00:53:50.988] Browser DEBUG   TSS: Counted history being pushed
+[00:53:50.988] Browser DEBUG   TSS: Caught history
+[00:53:50.988] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079277499}
+[00:55:40.700] Browser DEBUG   TSS: Counted history being replaced
+[00:55:40.700] Browser DEBUG   TSS: Caught history
+[00:55:40.700] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079292367}
+[00:55:42.642] Browser DEBUG   TSS: Counted history being pushed
+[00:55:42.642] Browser DEBUG   TSS: Caught history
+[00:55:42.642] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079402081}
+[00:56:31.935] Browser DEBUG   TSS: Counted history being replaced
+[00:56:31.935] Browser DEBUG   TSS: Caught history
+[00:56:31.935] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079404011}
+[00:56:33.287] Browser DEBUG   TSS: Counted history being pushed
+[00:56:33.287] Browser DEBUG   TSS: Caught history
+[00:56:33.287] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079453307}
+[00:56:47.867] Browser DEBUG   TSS: Counted history being replaced
+[00:56:47.867] Browser DEBUG   TSS: Caught history
+[00:56:47.867] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079454659}
+[00:57:14.731] Browser WARN    styled-components: it looks like an unknown prop "aberto" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.)
+[00:57:14.731] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         className="fusion-extension-loaded"
-                        >
-                  ...
-
-[00:17:45.804] Browser DEBUG   TSS: Counted history being pushed
-[00:17:45.804] Browser DEBUG   TSS: Caught history
-[00:17:45.804] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {}
-[00:17:45.804] Browser WARN    Image with src "http://localhost:3000/next.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:49.553] Browser DEBUG   TSS: Counted history being replaced
-[00:17:49.553] Browser DEBUG   TSS: Caught history
-[00:17:49.553] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929636910}
-[00:17:50.624] Browser DEBUG   TSS: Counted history being pushed
-[00:17:50.624] Browser DEBUG   TSS: Caught history
-[00:17:50.624] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929640684}
-[00:17:53.372] Browser DEBUG   TSS: Counted history being replaced
-[00:17:53.373] Browser DEBUG   TSS: Caught history
-[00:17:53.373] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929641740}
-[00:17:54.317] Browser DEBUG   TSS: Counted history being pushed
-[00:17:54.317] Browser DEBUG   TSS: Caught history
-[00:17:54.318] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929644490}
-[00:17:56.787] Browser DEBUG   TSS: Counted history being replaced
-[00:17:56.787] Browser DEBUG   TSS: Caught history
-[00:17:56.787] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1761929644490}
-[00:17:57.966] Browser DEBUG   TSS: Counted history being pushed
-[00:17:57.966] Browser DEBUG   TSS: Caught history
-[00:17:57.966] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929647904}
-[00:18:00.668] Browser DEBUG   TSS: Counted history being replaced
-[00:18:00.668] Browser DEBUG   TSS: Caught history
-[00:18:00.668] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929649093}
-[00:18:01.769] Browser DEBUG   TSS: Counted history being pushed
-[00:18:01.769] Browser DEBUG   TSS: Caught history
-[00:18:01.769] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929651786}
-[00:18:05.760] Browser DEBUG   TSS: Counted history being replaced
-[00:18:05.760] Browser DEBUG   TSS: Caught history
-[00:18:05.760] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929652901}
-[00:18:06.908] Browser DEBUG   TSS: Counted history being pushed
-[00:18:06.908] Browser DEBUG   TSS: Caught history
-[00:18:06.908] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929656891}
-[00:18:08.443] Browser DEBUG   TSS: Counted history being replaced
-[00:18:08.443] Browser DEBUG   TSS: Caught history
-[00:18:08.443] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929658040}
-[00:18:10.233] Browser DEBUG   TSS: Counted history being pushed
-[00:18:10.233] Browser DEBUG   TSS: Caught history
-[00:18:10.233] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929659570}
-[00:18:14.840] Browser DEBUG   TSS: Counted history being replaced
-[00:18:14.840] Browser DEBUG   TSS: Caught history
-[00:18:14.840] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929661360}
-[00:18:29.517] Browser DEBUG   TSS: Counted history being pushed
-[00:18:29.517] Browser DEBUG   TSS: Caught history
-[00:18:29.517] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929665967}
-[00:21:50.214] Browser DEBUG   TSS: Counted history being replaced
-[00:21:50.214] Browser DEBUG   TSS: Caught history
-[00:21:50.214] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929680649}
-[00:21:52.618] Browser DEBUG   TSS: Counted history being pushed
-[00:21:52.618] Browser DEBUG   TSS: Caught history
-[00:21:52.618] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1761929881335}
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead. false aberto aberto false aberto aberto aberto
+[00:57:14.731] Browser DEBUG   TSS: Counted history being pushed
+[00:57:14.731] Browser DEBUG   TSS: Caught history
+[00:57:14.731] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079469239}
+[00:57:40.153] Browser DEBUG   TSS: Counted history being replaced
+[00:57:40.153] Browser DEBUG   TSS: Caught history
+[00:57:40.153] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079496108}
+[00:57:41.445] Browser DEBUG   TSS: Counted history being pushed
+[00:57:41.445] Browser DEBUG   TSS: Caught history
+[00:57:41.445] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079521530}
+[00:58:17.570] Browser DEBUG   TSS: Counted history being replaced
+[00:58:17.570] Browser DEBUG   TSS: Caught history
+[00:58:17.570] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079522825}
+[00:58:19.637] Browser DEBUG   TSS: Counted history being pushed
+[00:58:19.637] Browser DEBUG   TSS: Caught history
+[00:58:19.637] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079558951}
+[00:58:53.587] Browser DEBUG   TSS: Counted history being replaced
+[00:58:53.587] Browser DEBUG   TSS: Caught history
+[00:58:53.587] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079561009}
+[00:58:56.418] Browser DEBUG   TSS: Counted history being pushed
+[00:58:56.418] Browser DEBUG   TSS: Caught history
+[00:58:56.418] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079594965}
+[01:00:08.590] Browser DEBUG   TSS: Counted history being replaced
+[01:00:08.590] Browser DEBUG   TSS: Caught history
+[01:00:08.590] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079597794}
+[01:00:10.830] Browser DEBUG   TSS: Counted history being pushed
+[01:00:10.830] Browser DEBUG   TSS: Caught history
+[01:00:10.830] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079669961}
+[01:01:02.429] Browser DEBUG   TSS: Counted history being replaced
+[01:01:02.429] Browser DEBUG   TSS: Caught history
+[01:01:02.429] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079672207}
+[01:01:03.738] Browser DEBUG   TSS: Counted history being pushed
+[01:01:03.738] Browser DEBUG   TSS: Caught history
+[01:01:03.738] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079723801}
+[01:01:05.092] Browser DEBUG   TSS: Counted history being replaced
+[01:01:05.092] Browser DEBUG   TSS: Caught history
+[01:01:05.092] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079725115}
+[01:01:06.432] Browser DEBUG   TSS: Counted history being pushed
+[01:01:06.432] Browser DEBUG   TSS: Caught history
+[01:01:06.432] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079726460}
+[01:03:04.267] Browser DEBUG   TSS: Counted history being replaced
+[01:03:04.267] Browser DEBUG   TSS: Caught history
+[01:03:04.267] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079727765}
+[01:03:05.061] Browser DEBUG   TSS: Counted history being pushed
+[01:03:05.061] Browser DEBUG   TSS: Caught history
+[01:03:05.061] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763079845634}
+[01:05:39.014] Browser DEBUG   TSS: Counted history being replaced
+[01:05:39.014] Browser DEBUG   TSS: Caught history
+[01:05:39.014] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1763079845634}
+[01:05:39.815] Browser DEBUG   TSS: Counted history being pushed
+[01:05:39.815] Browser DEBUG   TSS: Caught history
+[01:05:39.815] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763080000380}
+[01:05:47.322] Browser DEBUG   TSS: Counted history being replaced
+[01:05:47.322] Browser DEBUG   TSS: Caught history
+[01:05:47.322] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":2,"lastTime":1763080000380}
+[01:05:48.405] Browser DEBUG   TSS: Counted history being pushed
+[01:05:48.405] Browser DEBUG   TSS: Caught history
+[01:05:48.405] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763080008698}
+[01:05:58.092] Browser DEBUG   TSS: Counted history being replaced
+[01:05:58.092] Browser DEBUG   TSS: Caught history
+[01:05:58.092] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763080009786}
+[01:06:04.720] Browser DEBUG   TSS: Counted history being pushed
+[01:06:04.720] Browser DEBUG   TSS: Caught history
+[01:06:04.720] Browser DEBUG   TSS: Checking if repeated 500 times for interval 1000 against data:  {"lastCount":1,"lastTime":1763080019465}

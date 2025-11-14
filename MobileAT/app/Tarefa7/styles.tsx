@@ -23,7 +23,7 @@ export const Card = styled.div`
 /* ===== HEADER ===== */
 export const Header = styled.div`
   display: flex;
-  align-items: stretch; /* Faz os filhos (imagem + texto) ficarem com mesma altura */
+  align-items: stretch; 
   justify-content: space-between;
   padding: 1rem;
   border-bottom: 1px solid #ddd;
@@ -37,7 +37,7 @@ export const Header = styled.div`
     color: #2563eb;
     cursor: pointer;
     transition: transform 0.2s ease;
-    align-self: flex-start; /* Faz o ícone ficar no topo direito */
+    align-self: flex-start; 
 
     &:hover {
       transform: scale(1.2);
@@ -52,13 +52,13 @@ export const Header = styled.div`
 
 /* ===== FOTO ===== */
 export const Foto = styled.img`
-  width: 110px; /* um pouco mais larga, proporcional */
+  width: 110px; 
   height: auto;
-  aspect-ratio: 3 / 4; /* mantém proporção de retrato */
+  aspect-ratio: 3 / 4; 
   border-radius: 8px;
   object-fit: cover;
   border: 2px solid #2563eb;
-  flex-shrink: 0; /* impede de diminuir com textos grandes */
+  flex-shrink: 0; 
 `;
 
 

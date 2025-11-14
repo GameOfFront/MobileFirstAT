@@ -17,14 +17,11 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/app/layout.tsx [app-r
 
 __turbopack_context__.v({
   "ads": "styles-module__am06kW__ads",
-  "container": "styles-module__am06kW__container",
-  "contentWrapper": "styles-module__am06kW__contentWrapper",
-  "contextMainWrapper": "styles-module__am06kW__contextMainWrapper",
   "contextMenu": "styles-module__am06kW__contextMenu",
   "footer": "styles-module__am06kW__footer",
   "globalMenu": "styles-module__am06kW__globalMenu",
+  "grid": "styles-module__am06kW__grid",
   "header": "styles-module__am06kW__header",
-  "leftColumn": "styles-module__am06kW__leftColumn",
   "mainContent": "styles-module__am06kW__mainContent",
 });
 }),
